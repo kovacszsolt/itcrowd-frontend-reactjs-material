@@ -53,7 +53,6 @@ class ServicesRemote {
 
 
     _getFromServer() {
-        console.log('_getFromServer');
         return new Promise((resolve, reject) => {
             return Promise.all([this._getServerUpdate(), this._getServerTweetList(), this._getServerCategoryList()]).then((response) => {
                 if (response[0] === undefined) {

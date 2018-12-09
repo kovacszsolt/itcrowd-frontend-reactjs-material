@@ -1,5 +1,7 @@
 {
   "name": "itcrowd-frontend-reactjs-bootstrap",
+  "description": "ITCrowd . Hu ReactJS with Material",
+  "license": "MIT",
   "version": "1.0.0",
   "private": false,
   "dependencies": {
@@ -13,6 +15,10 @@
     "react-helmet": "^5.2.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.5"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/kovacszsolt/itcrowd-frontend-reactjs-material.git"
   },
   "scripts": {
     "start": "react-scripts start",

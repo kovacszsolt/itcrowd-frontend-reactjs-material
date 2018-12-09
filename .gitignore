@@ -1,0 +1,5 @@
+.idea
+source/node_modules/
+source/build/
+source/.env.production
+source/package-lock.json
