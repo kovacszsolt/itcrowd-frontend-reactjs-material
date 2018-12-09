@@ -4,4 +4,4 @@ services:
     image: itcrowd-frontend-reactjs-material:latest
     restart: "on-failure"
     ports:
-    - 8092:80
+    - 8093:80
